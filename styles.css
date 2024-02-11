@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-  background-color: #343a40 !important;
+  background-color: #29333b !important;
 }
 
 .navbar-brand {
@@ -48,6 +48,7 @@ p.lead {
   background-color: #007bff;
   border-color: #007bff;
   transition: background-color 0.3s ease;
+  border-radius: 10%
 }
 
 .btn-primary:hover {
