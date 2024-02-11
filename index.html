@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="py-5 text-center bg-dark text-white">
+    <div class="container">
+      <h1>Welcome to My Portfolio</h1>
+      <p class="lead">My name is Chirag Mahajan and here are all the skills that I work with!</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 text-center bg-light">
+    <div class="container">
+      <h2>About Me</h2>
+      <p class="lead">I am a passionate web developer looking to expand my knowledge about the domain and build my skills as I pursue my B.E. Degree in Computer Engineering from Goa College of Engineering. I also have a keen interest in ML, AI and Data Science which I plan to pursue in the future.</p>
+    </div>
+  </section>
+
+ <!-- Skills Section -->
+<section id="skills" class="py-5 text-center bg-dark text-white">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="skill">
+            <img src="https://live.staticflickr.com/8065/8220185645_dd4c773717.jpg" alt="HTML Logo" class="skill-logo">
+            <h3>HTML</h3>
+            <p class="lead">Proficient in creating structured and semantic web pages.</p>
+          </div>
+          <div class="skill">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT76eM07DULeObqgi-du_ILIO6VY-cjyy5LKJBgG9OJLQ2cU6IhcLzt9icOkp5FdXxZqHA&usqp=CAU" alt="CSS Logo" class="skill-logo">
+            <h3>CSS</h3>
+            <p class="lead">Skilled in styling web pages and creating responsive designs.</p>
+          </div>
+          <div class="skill">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEUAAAD///9TU1Pq6urz8/NQUFAKCgoaGhrb29t9fX01NTXn5+e5ubk9PT2QkJCqqqr5+fkgICDv7++Ojo5CQkKIiIhISEhycnJjY2NZWVnBwcHg4ODJycmbm5vS0tJpaWkWFhYqKipvb2+kpKQxMTGvr6+Xl5dcSJZCAAAEu0lEQVR4nO2c23aqMBRFVah3KtiLF6xia/v/n9jWAWSFJLQygARc8+2EJCfTsMlOsA4GhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQghxicmoYZ5tG46GDXO0bfjQtOGh94b9n0Ma0pCG/zf0asZP+526YujV3fHGOcNJzR3TsDVoWJn+G76nHcc193szNKwMDVtDMZzMytj81NiU1sj6OTlrOB+WEY4Hg3VpjXnaT1cN/R9Dj4ZX+m+4pWFbNG64sGWWoRhGjzpePMXQf/oCnqadMTQwVQwLQ1/eneGOhm1Bwwwa0tAejRmOaNgWtRnu046C9N/9M0wmV6Jix/0xNHXcf8PaX/ncCg0zaGjuuL6xVoOGGTcbvt6P4bi+wVaChhk0VMgNk9rGWo3GDddJbWOtRnVD/2Ol45w2eO6+oYFsf5gb1v3q9VZomFHdMCrtt3kaMwxo2BaK4WVxxVvJ9cDwf+/xM0PfOcPs/eFSrgeGgY7L3mR4HtilgqGe4mkiDVujMcN5eDeGl2YG/m9omFHdcG5q0RKNGV7uxjDsr6F/N4aBqUVLGA33cj0wjFLkCsWs7ey84fBNqgeGcXhF/kre27B7hvJ9+sdJ1HLYHcMozAd7hD1jqeHkmLcJs5s3N7T9x9zqDvjVz4fric+/zDAQe2L/NSs8r10zTPKiZCFmZJsVlhhuxawvRC9RtlHOnS2RGUrp4yEf8vAlLTIbvojK+JfpD5m3K4bDcAelKzHq9DTDaKhWvTLLS50xFNP1izIxJkPNdP/yKYptG+KvRnxC+Uk8b+LfPaze8BzntcKTaBwdodeHlo2KBCEM5gh5Cjwg1yOD4Ugcu8Fjd7DD07ip7bO2wesChuONxIXxNC8ON1rDjfh0ppCvwh2upLd2OOCIZnBBJCrDl6NiGIPJUt9Kjk2LvOGYVqYLRUMAUliY+Z+5tx2DOSccLv4IwqagojfciAYjDOupcavVPgEG4xryrAdfltEY+hC77oVgzlgKRpgUWA/0hjGch7oYggIp5j7gguSuGEKiNscQXO+U/8E6GwyhA4QQ5CeKISQJW7yhj9ZXQR1zHPoCVvAno+GTqPSIM/up9u4G0g25FeXiWSsbQqK2x6YztWtXkILxUZQHvsbQF9Mc4bPYt51rl/KOwQjHbYmatU2T/OpWSm4dWgV1SCtjDKe5+4Ih6H/hzK/UPl0DI8qHYPyQDMV6Mu5KCAqkYISn5QwMhUiAKYHndAgKpGCE3GsXpoZw4nGSVlHb33/6N1IwwhMl8K6/GgG7XWMm5Dy4MsLTPzlEg2SZaKthNtsFpOej4fEhJUGe7bdoNyOtcdos7B0/BOs/4lmBCwajJpPubggKcKFbF9YBaUMZdiwEBeZgfJZSn46sgjqk1Q7uRHkvmVgbXw3MMWPJnyYfOLdvZe27AAZjuiLgmT1uI7uKFIzvPyGIZ/YL29/LqwVpZfySjlD3f7fuBAEeoiFftkdWH3udn3/6u2F3eFQF484louVIwdinEBRIx2nS3r8/QDCGDp7Z10EejHEvVkEd6asJt16b1cv19VIvQ1Cw7GsICnobgoQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEELIvfANA5JQ5hAfpbsAAAAASUVORK5CYII=" alt="JavaScript Logo" class="skill-logo">
+            <h3>JavaScript</h3>
+            <p class="lead">Familiar with client-side scripting and DOM manipulation.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968667.png" alt="Bootstrap Logo" class="skill-logo">
+            <h3>Bootstrap</h3>
+            <p class="lead">Experience in building responsive and mobile-first websites.</p>
+          </div>
+          <div class="skill">
+            <img src="https://miro.medium.com/v2/resize:fit:447/1*QJ2gn1dMnKoxB9zj6i4Log.png" alt="C++ Logo" class="skill-logo">
+            <h3>C++</h3>
+            <p class="lead">Proficient in object-oriented programming and algorithm design.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 text-center bg-light">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p class="lead">Feel free to reach out to me!</p>
+      <form>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" placeholder="Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
