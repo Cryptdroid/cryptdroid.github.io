@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-  background-color: #29333b !important;
+  background-color: #33186B !important;
 }
 
 .navbar-brand {
@@ -66,16 +66,16 @@ p.lead {
 }
 
 #home {
-  background-color: #343a40;
+  background-color: #7360DF !important;
   color: #fff;
 }
 
 #about {
-  background-color: #f8f9fa;
+  background-color: #C499F3 !important;
 }
 
 #skills {
-  background-color: #343a40;
+  background-color: #F2AFEF;
   color: #fff;
 }
 
