@@ -1,7 +1,7 @@
 /* Custom CSS with Colors and Animations */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8f9fa;
+  /* background-color: #f8f9fa; */
 }
 
 .navbar {
@@ -66,9 +66,21 @@ p.lead {
 }
 
 #home {
+  display: flex;
+  align-items: center;
   background-color: #7360DF !important;
-  color: #fff;
+  color: white;
+  height: 100vh;
 }
+#home .container h1{
+  color: white;
+  font-size: 5em;
+}
+#home .container p{
+  color: white;
+  font-size: 1.5em;
+}
+
 
 #about {
   background-color: #C499F3 !important;
@@ -80,7 +92,28 @@ p.lead {
 }
 
 #contact {
-  background-color: #f8f9fa;
+  background-color: white !important;
+}
+.Skill-img{
+  border-radius: 50%;
+  transition: transform 0.3s, box-shadow 0.3s;
+  
+}
+.Skill-img:hover{
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 60px;
+  
+
 }
 
 @media screen and (min-width: 768px) {
